@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+    <head>
+        <!-- Meta Content -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <!-- Title and Description and Author -->
+        <title>To Do List Website - Quick Coding Guides</title>
+        <meta name="description" content="To Do List Website - Quick Coding Guides">
+        <meta name="author" content="Quick Coding Guides">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="images/Quick_Coding_Guides_Logo_32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/Quick_Coding_Guides_Logo_16x16.png">
+        <link rel="icon" type="image/png" href="images/Quick_Coding_Guides_Logo_16x16.png" title="Quick Coding Guides Small Logo">
+        <link rel="shortcut icon" type="image/png" href="images/Quick_Coding_Guides_Logo_16x16.png" title="Quick Coding Guides Small Logo">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style/css/global.stylesheet.min.css">
+
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="style/jsfiles/global.script.min.js"></script>
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style/css/all.min.css">
+    </head>
+    <body class="ToDoAPP">
+        <main>
+            <div class="todo_wrapper">
+                <h1>To Do List Mini-App</h1>
+                <div class="add_task_container">
+                    <div class="input_container">
+                        <input type="text" placeholder="Add a task" class="task_input" it="task_input" name="task_input">
+                        <i class="fas fa-times clear_input"></i>
+                    </div>
+                    <div class="button_container">
+                        <button type="submit" class="submit_button" it="submit_button" name="submit_button">Add</button>
+                    </div>
+                    <div class="todo_alert_message">Please input a valid task</div>
+                </div>
+                <div class="tasks_wrapper">
+                    <div class="tasks_completion_container tasks_not_completed_container">
+                        <h2><i class="fas fa-list-ul"></i>To Do:</h2>
+                        <div class="tasks_container">
+                            <div class="task_container">
+                                <div class="task_check_container">
+                                    <i class="fas fa-square"></i>
+                                </div>
+                                <div class="task_name_container">
+                                    <p>Task 1</p>
+                                </div>
+                                <div class="task_trash_container">
+                                    <i class="fas fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="task_container">
+                                <div class="task_check_container">
+                                    <i class="fas fa-square"></i>
+                                </div>
+                                <div class="task_name_container">
+                                    <p>Task 2</p>
+                                </div>
+                                <div class="task_trash_container">
+                                    <i class="fas fa-trash"></i>
+                                </div>
+                            </div>
+                            <!-- TODO: Add a no more tasks to do -->
+                        </div>
+                    </div>
+                    <div class="tasks_completion_container tasks_completed_container">
+                        <h2><i class="fas fa-check"></i>Done:</h2>
+                        <div class="tasks_container">
+                            <div class="task_container">
+                                <div class="task_check_container">
+                                    <i class="fas fa-check-square"></i>
+                                </div>
+                                <div class="task_name_container">
+                                    <p>Task 3</p>
+                                </div>
+                                <div class="task_trash_container">
+                                    <i class="fas fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="task_container">
+                                <div class="task_check_container">
+                                    <i class="fas fa-check-square"></i>
+                                </div>
+                                <div class="task_name_container">
+                                    <p>Task 4</p>
+                                </div>
+                                <div class="task_trash_container">
+                                    <i class="fas fa-trash"></i>
+                                </div>
+                            </div>
+                            <!-- TODO: Add all tasks done -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="copyright">Made by <a href="https://www.quickcodingguides.com/">Quick Coding Guides</a>.</p>
+        </footer>
+    </body>
+</html>
